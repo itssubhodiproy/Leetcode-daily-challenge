@@ -11,12 +11,6 @@ public:
   }
 	// Removes the element on top of the stack.
 	int pop() {
-      
-    for(int i=1;i<=que.size()-1;++i){
-			que.push(que.front());
-			que.pop();
-    }
-  }
  int ele=que.front();
 		que.pop();
   return ele;
