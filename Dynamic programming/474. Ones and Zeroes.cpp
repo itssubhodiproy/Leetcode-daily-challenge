@@ -6,7 +6,7 @@ int zeros(string &s){
             count++;
     return count;
 }
-int dp[601][101][101];
+int dp[601][101][101]; //3d dp
 int knapsack(vector<string>& str,int m,int n,int i){
     if(i==-1) return 0;
     if(m==0 && n==0)return 0;
